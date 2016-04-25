@@ -41,8 +41,8 @@ label{
     vertical-align: middle;
 }
 input{
-    /* float: right; */
-    width: 75%;
+    float: right;
+    width: 77%;
     height: 90px;
     margin: 3% 0;
     vertical-align: middle;
