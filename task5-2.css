@@ -1,0 +1,97 @@
+.wrap{
+    position: relative;
+}
+.header{
+    padding: 3% 30%;
+    background-color: rgb(95,192,205);
+}
+.first{
+    display: inline-block;
+    width: 40%;
+    padding: 4.3%;
+    border-radius: 10%;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    background-color: rgb(85,168,179);
+}
+.second{
+    display: inline-block;
+    border-radius: 10%;
+    padding: 4.33%;
+    width: 40%;
+    text-align: center;
+    font-size: 2rem;
+    background-color: white;
+    color: rgb(95,192,205);
+}
+.address{
+    position: absolute;
+    right: 3%;
+    top: 3%;
+    width: 6%;
+}
+.choice span{
+    display: inline-block;
+    margin: 3% 5%;
+    border-right: 1px solid #7afff2;
+    font-size: 1.5rem;
+    color: rgb(95,192,205);
+}
+.choice #special{
+    display: inline-block;
+    border: 0;
+    font-size: 1.5rem;
+    color: rgb(95,192,205);
+}
+ul li .iron-date{
+    width: 5%;
+}
+ul li .iron-place{
+    width: 5%;
+}
+ul li{
+    position: relative;
+    padding: 3% 0;
+    border-top: 1px solid rgb(95,192,205);
+    line-height: 2.3rem;
+    font-size: 1.5rem;
+    color: rgb(95,192,205);
+}
+ul li .time{
+    display: inline-block;
+    margin-left: 5%;
+}
+ul li .price{
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    color: red;
+}
+.footer{
+    position: relative;
+    padding-bottom: 5%;
+}
+.footer .home{
+    position: absolute;
+    left: 22%;
+    width: 9%;
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(95,192,205);
+;
+}
+.footer .write{
+    position: absolute;
+    left: 40%;
+    width: 18%;
+}
+.footer .my{
+    position: absolute;
+    left: 68%;
+    width: 10%;
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(95,192,205);
+}
+

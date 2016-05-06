@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: "Microsoft YaHei", serif;
+    min-width: 320px;
+}
+img{
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+@media screen and (min-width:480px)
+{
+    .wrap{
+        width: 414px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:370px){
+    html{
+        font-size: 53.1%;
+    }
+}
