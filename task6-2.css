@@ -1,0 +1,102 @@
+.wrap{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 600px;
+    min-width: 320px;
+}
+.header{
+    position: relative;
+    padding: 3% 0;
+    border-bottom: 1px solid #7afff2;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    background: #29bde0 url("images/task6-2_03.png") 2% 50% no-repeat;
+    background-size: 8%;
+}
+.header .right{
+    position: absolute;
+    top: 25%;
+    right: 3%;
+    width: 7%;
+
+}
+.main{
+    width: 100%;
+    padding-bottom: 7%;
+    background-color: #29bde0;
+}
+.main .victory{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    padding: 2% 0;
+}
+.main .result{
+    display: block;
+    margin: 0 auto 10%;
+    width: 80%;
+    font-size: 2rem;
+    color: #ffc865;
+}
+.main p{
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.7rem;
+    color: white;
+}
+.middle ul{
+    list-style-type: none;
+}
+.middle ul li{
+    padding: 2% 8%;
+    border-bottom: 1px solid #999999;
+}
+.middle ul li .first{
+    font-size: 2rem;
+    color: black;
+}
+.middle ul li .time{
+    float: right;
+    font-size: 1.5rem;
+    color: #999999;
+}
+.middle ul li .detail{
+    display: block;
+    padding: 2% 0;
+    font-size: 1.7rem;
+    color: #999999;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    padding: 3% 0;
+    width: 100%;
+    max-width: 600px;
+    background-color: #99dff0;
+    opacity: 0.85;
+}
+.footer .more-time{
+    display: inline-block;
+    width: 32%;
+    padding: 2% 5%;
+    margin-left: 3%;
+    margin-right: 8%;
+    border-radius: 5%;
+    background-color: red;
+    font-size: 2.3rem;
+    color: white;
+    text-align: center;
+}
+.footer .share{
+    display: inline-block;
+    width: 32%;
+    padding: 2% 5%;
+    margin-right: 3%;
+    border-radius: 5%;
+    background-color: #ffc865;
+    font-size: 2.3rem;
+    color: white;
+    text-align: center;
+}

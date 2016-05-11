@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="base6.css">
+    <link rel="stylesheet" type="text/css" href="task6-3.css">
+    <title>task6-3</title>
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <img src="images/task6-3_01.png" class="left">
+            <span>投 票</span>
+            <img src="images/task6-3_02.png" class="right">
+        </div>
+        <div class="vote">
+            <span>发言讨论结束， 大家请投票</span>
+            <div class="triangle-down"></div>
+            <audio src="audio/财富自由.mp3" controls="controls" preload id="music" hidden></audio>
+            <button id="a" onclick="a();" class="circle">
+                    <div class="triangle-right"></div>
+            </button>
+            <script>
+                function a() {
+                    var audio = document.getElementById('music');
+                    if (audio.paused) {
+                        audio.play();//audio.play();// 播放
+                    }
+                    else {
+                        audio.pause();// 暂停
+                    }
+                }
+            </script>
+        </div>
+        <div class="main">
+            <span class="click">点击得票数最多人的头像</span>
+            <div class="box">
+                <span class="role">水民</span>
+                <span class="number">1号</span>
+                <div class="sprite">
+                    <div class="knife"></div>
+                    <div class="glass"></div>
+                    <div class="aim"></div>
+                    <div class="plus"></div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="role">水民</span>
+                <span class="number">2号</span>
+                <div class="sprite">
+                    <div class="knife"></div>
+                    <div class="glass"></div>
+                    <div class="aim"></div>
+                    <div class="plus"></div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="role">警察</span>
+                <span class="number">3号</span>
+                <div class="sprite">
+                    <div class="knife"></div>
+                    <div class="glass"></div>
+                    <div class="aim"></div>
+                    <div class="plus"></div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="role">法官</span>
+                <span class="number">4号</span>
+                <div class="sprite">
+                    <div class="knife"></div>
+                    <div class="glass"></div>
+                    <div class="aim"></div>
+                    <div class="plus"></div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="role">狙击手</span>
+                <span class="number">5号</span>
+                <div class="sprite">
+                    <div class="knife"></div>
+                    <div class="glass"></div>
+                    <div class="aim"></div>
+                    <div class="plus"></div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="role">医生</span>
+                <span class="number">6号</span>
+                <div class="sprite">
+                    <div class="knife"></div>
+                    <div class="glass"></div>
+                    <div class="aim"></div>
+                    <div class="plus"></div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="role">杀手</span>
+                <span class="number">7号</span>
+                <div class="sprite">
+                    <div class="knife"></div>
+                    <div class="glass"></div>
+                    <div class="aim"></div>
+                    <div class="plus"></div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="role">水手</span>
+                <span class="number">8号</span>
+                <div class="sprite">
+                    <div class="knife"></div>
+                    <div class="glass"></div>
+                    <div class="aim"></div>
+                    <div class="plus"></div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="role">水手</span>
+                <span class="number">9号</span>
+                <div class="sprite">
+                    <div class="knife"></div>
+                    <div class="glass"></div>
+                    <div class="aim"></div>
+                    <div class="plus"></div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="role">杀手</span>
+                <span class="number">10号</span>
+                <div class="sprite">
+                    <div class="knife"></div>
+                    <div class="glass"></div>
+                    <div class="aim"></div>
+                    <div class="plus"></div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="role">水手</span>
+                <span class="number">11号</span>
+                <div class="sprite">
+                    <div class="knife"></div>
+                    <div class="glass"></div>
+                    <div class="aim"></div>
+                    <div class="plus"></div>
+                </div>
+            </div>
+            <div class="box">
+                <span class="role">水民</span>
+                <span class="number">12号</span>
+                <div class="sprite">
+                    <div class="knife"></div>
+                    <div class="glass"></div>
+                    <div class="aim"></div>
+                    <div class="plus"></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <a href="task6-2.html">
+                <button type="submit" class="over">投死</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
