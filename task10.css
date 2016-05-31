@@ -1,0 +1,217 @@
+body{
+    font-family: "Microsoft YaHei", sans-serif;
+    font-size: 62.5%;
+    background-color: #fafafa;
+}
+.header{
+    padding: 1% 5%;
+}
+span{
+    font-size: 1.6rem;
+    line-height: 3rem;
+    color: #1db176;
+}
+.sprite{
+    display: table;
+    max-width: 130px;
+}
+.blog{
+    display: table-cell;
+    padding: 18% 0;
+    background: url("images/task10.png") 0 0 no-repeat;
+}
+.QQ{
+    display: table-cell;
+    padding: 18% 0;
+    background: url("images/task10.png") -88px -1px no-repeat;
+}
+.chat{
+    display: table-cell;
+    padding: 18% 0;
+    background: url("images/task10.png") -46px 0 no-repeat;
+}
+.header-bottom{
+    padding: 3% 5% 1% 5%;
+    background-color: #1db176;
+}
+.tree{
+    font-size: 4rem;
+    color: white;
+}
+.http{
+    font-size: 2rem;
+    color: white;
+}
+.navbar-header{
+    color: white;
+}
+.lead{
+    list-style-type: none;
+    text-align: center;
+}
+.lead li a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+}
+.navbar-nav> li >a:hover,
+.navbar-nav> li >a:focus {
+    color: white;
+    background-color: #1db176;
+}
+.glyphicon{
+    font-size: 2.5rem;
+    color: white;
+}
+#slidershow{
+    margin-bottom: 10%;
+}
+#center{
+    text-align: center;
+}
+#img-center{
+    margin: 0 auto;
+}
+#right{
+    border-left: 1px dotted #999;
+    padding-top: 2%;
+    text-align: center;
+}
+.user{
+    display: inline-block;
+}
+.middle1{
+    margin-bottom: 3%;
+}
+#middle1{
+    margin-bottom: 10%;
+}
+.circle1{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: #1db176;
+    line-height: 5rem;
+    text-align: center;
+    box-shadow: 1px 1px 1px #e6e6e6;
+    background-color: #fff;
+}
+.middle2{
+    text-align: center;
+}
+.middle2 h3{
+    padding-bottom: 5%;
+}
+.img-responsived{
+    padding-top: 4%;
+    width: 22%;
+}
+#middle2{
+    padding-top: 3%;
+}
+.icon{
+    padding-bottom: 3%;
+}
+.center2{
+    margin-bottom: 10%;
+}
+.middle3{
+   text-align: center;
+}
+#middle3{
+    padding: 10% 15% 35% 15%;
+    text-decoration: none;
+}
+#middle3 .caption h4{
+    padding: 10% 0;
+}
+#middle3 .caption p{
+    line-height: 2rem;
+    text-align: left;
+}
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+    border-color: #ddd;
+}
+.middle3 h3{
+    padding-bottom: 5%;
+}
+.center3{
+    margin-bottom: 10%;
+}
+.middle4{
+    text-align: center;
+}
+.middle4 h3{
+    padding-bottom: 5%;
+}
+.img-middle4 img{
+    display: inline-block;
+    padding: 5% 2%;
+}
+.center4{
+    margin-bottom: 10%;
+}
+.list{
+    list-style-position: inside;
+}
+.list li{
+    float: left;
+    padding: 0 1.5%;
+    font-size: 1.7rem;
+    line-height: 3rem;
+    color: #1db176;
+}
+.footer0{
+    width: 100%;
+}
+.footer1{
+    text-align: center;
+    padding-bottom: 3%;
+    margin: 0;
+}
+.footer1 h3{
+    padding: 3% 0;
+}
+.footer2{
+    padding: 3% 0;
+    width: 100%;
+    background-color: #1db176;
+}
+.change{
+    display: block;
+    font-size: 2rem;
+    padding-bottom: 13%;
+    color: white;
+}
+.son{
+    display: block;
+    font-size: 2rem;
+    padding-bottom: 8%;
+    color: white;
+}
+#footer2{
+    padding-bottom: 3%;
+    font-size: 1.2rem;
+    color: white;
+}
+.we-chat{
+    display: block;
+    font-size: 2rem;
+    padding-bottom: 8%;
+    color: white;
+}
+.footer-bottom{
+    border-top: 1px solid white;
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+    background: #1db176;
+}
+@media screen and(max-width: 768px){
+    body{
+        font-size: 60%;
+    }
+}

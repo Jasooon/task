@@ -1,0 +1,167 @@
+body{
+    font-family: "Microsoft YaHei", sans-serif;
+    font-size: 62.5%;
+    background-color: #fafafa;
+}
+.header{
+    padding: 1% 5%;
+}
+span{
+    font-size: 1.6rem;
+    line-height: 3rem;
+    color: #1db176;
+}
+.sprite{
+    display: table;
+    max-width: 130px;
+}
+.blog{
+    display: table-cell;
+    padding: 18% 0;
+    background: url("images/task10.png") 0 0 no-repeat;
+}
+.QQ{
+    display: table-cell;
+    padding: 18% 0;
+    background: url("images/task10.png") -88px -1px no-repeat;
+}
+.chat{
+    display: table-cell;
+    padding: 18% 0;
+    background: url("images/task10.png") -46px 0 no-repeat;
+}
+.header-bottom{
+    padding: 3% 5% 1% 5%;
+    background-color: #1db176;
+}
+.tree{
+    font-size: 4rem;
+    color: white;
+}
+.http{
+    font-size: 2rem;
+    color: white;
+}
+.navbar-header{
+    color: white;
+}
+.lead{
+    list-style-type: none;
+    text-align: center;
+}
+.lead li a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+}
+.navbar-nav> li >a:hover,
+.navbar-nav> li >a:focus {
+    color: white;
+    background-color: #1db176;
+}
+.glyphicon{
+    font-size: 2.5rem;
+    color: white;
+}
+.main-top{
+    padding: 3% 8%;
+}
+.main-top a{
+    display: inline-block;
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+}
+.main-top p{
+    display: inline-block;
+    font-size: 2rem;
+    color: #2e6da4;
+}
+.main-middle{
+    padding: 0 8%;
+}
+.sidebar{
+    border: 1px solid #d4d4d4;
+    padding: 0;
+    box-shadow: 1px 1px 1px #d4d4d4;
+    list-style: none;
+}
+#top{
+    padding: 0;
+    font-size: 2rem;
+    color: black;
+    line-height: 5rem;
+    text-align: center;
+    border-bottom: 1px solid #d4d4d4;
+}
+.img-responsive{
+    display: inline-block;
+}
+.sidebar li{
+    padding: 3% 0 3% 35%;
+    text-align: left;
+}
+ul{
+    list-style: none;
+}
+.right{
+    display: table;
+    border: 1px solid #d4d4d4;
+    padding: 0;
+    box-shadow: 1px 1px 1px #d4d4d4;
+    list-style: none;
+}
+.right li{
+    padding: 3% 5%;
+}
+.right li p{
+    font-size: 1.5rem;
+    text-indent: 3rem;
+    line-height: 3rem;
+    color: #999999;
+}
+#first{
+    display: table;
+    border-bottom: 1px solid #ededed;
+}
+.potato{
+    padding: 10% 0;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.footer2{
+    padding: 3% 0;
+    width: 100%;
+    background-color: #1db176;
+}
+.change{
+    display: block;
+    font-size: 2rem;
+    padding-bottom: 13%;
+    color: white;
+}
+.son{
+    display: block;
+    font-size: 2rem;
+    padding-bottom: 8%;
+    color: white;
+}
+#footer2{
+    padding-bottom: 3%;
+    font-size: 1.2rem;
+    color: white;
+}
+.we-chat{
+    display: block;
+    font-size: 2rem;
+    padding-bottom: 8%;
+    color: white;
+}
+.footer-bottom{
+    border-top: 1px solid white;
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+    background: #1db176;
+}

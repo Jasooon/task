@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Microsoft YaHei", sans-serif;
+}
+body{
+    width: 1348px;
+}
+.header{
+    position: relative;
+    width: 1300px;
+    height: 170px;
+}
+.header-top{
+    width: 960px;
+    height: 40px;
+    padding: 10px 60px;
+}
+.header-top span{
+    font-size: 20px;
+    color: #1db176;
+}
+.sprites{
+    position: absolute;
+    width: 200px;
+    height: 25px;
+    top: 20px;
+    right: 5px;
+    background:url(images/task7/task7-1.png) no-repeat;
+}
+.header-bottom{
+    position: relative;
+    padding: 20px 60px 30px;
+    width: 1228px;
+    height: 60px;
+    background-color: #1db176;
+}
+.header-bottom .tree{
+    font-size: 40px;
+    color: white;
+}
+.header-bottom .http{
+    font-size: 20px;
+    color: white;
+}
+.header-bottom ul{
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    list-style-type: none;
+}
+.header-bottom ul li{
+    display: inline-block;
+    padding: 20px 30px;
+}
+.header-bottom ul li a{
+    text-decoration: none;
+}
+.header-bottom ul li span{
+    font-size: 20px;
+    color: white;
+}
+.main{
+    margin-bottom: 150px;
+    background: #fafafa;
+}
+.main .main-top img{
+    width: 100%;
+}
+.main .main-middle{
+    padding: 40px 0 40px 100px;
+}
+.main .main-middle .homepage{
+    display: inline-block;
+}
+.main .main-middle p{
+    display: inline-block;
+    color: #1db176;
+}
+.sidebar{
+    display: inline-block;
+    width: 300px;
+    height: 700px;
+    border: 1px solid #ededed;
+    box-shadow: 0 2px 2px #e1e1e1;
+    margin-left: 100px;
+    vertical-align: top;
+    background: #fff;
+}
+.sidebar ul{
+    list-style-type: none;
+}
+#top{
+    padding: 20px 0 20px 110px;
+    border-bottom: 1px solid #ededed;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.sidebar ul li{
+    padding: 15px 0 15px 100px;
+}
+.sidebar ul li span{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #1db176;
+}
+.sidebar ul li img{
+    width: 4%;
+}
+.sidebar li:hover .circle{
+    color: red;
+}
+.potato{
+    display: inline-block;
+    width: 700px;
+    height: 1300px;
+    margin-left: 100px;
+    padding-left: 50px;
+    border: 1px solid #ededed;
+    vertical-align: top;
+    box-shadow: 0 2px 2px #e1e1e1;
+}
+.potato ul{
+    list-style-type: none;
+}
+.potato ul #first{
+    border-bottom: 1px solid #ededed;
+}
+.potato ul li {
+    padding: 30px 15px 30px 0;
+}
+.potato ul li .icon{
+    display: inline-block;
+    width: 160px;
+    height: 100px;
+    background: url("images/task7/task7-1__12.jpg") no-repeat;
+}
+.potato ul #first span{
+    display: inline-block;
+    width: 500px;
+    font-size: 15px;
+    text-indent: 30px;
+    line-height: 30px;
+    color: #999999;
+}
+.potato ul li p{
+    font-size: 15px;
+    text-indent: 30px;
+    line-height: 30px;
+    color: #999999;
+}
+.footer .footer-top{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    vertical-align: top;
+    background: #1db176;
+}
+.footer-top .left{
+    display: inline-block;
+    width: 300px;
+    padding-left: 100px;
+}
+.footer-top .left .change{
+    display: block;
+    padding-bottom: 80px;
+    font-size: 20px;
+    color: white;
+}
+.footer-top .left p{
+    font-size: 14px;
+    color: white;
+}
+.footer-top .center{
+    display: inline-block;
+    padding-left: 200px;
+}
+.son{
+    display: block;
+    padding-bottom: 50px;
+    font-size: 20px;
+    color: white;
+}
+.footer-top .center p{
+    font-size: 14px;
+    color: white;
+}
+.footer-top .right{
+    display: inline-block;
+    padding-left: 300px;
+}
+.footer-top .right span{
+    display: block;
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: white;
+}
+.footer-bottom{
+    padding: 5px;
+    border-top: 1px solid white;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    background: #1db176;
+}
