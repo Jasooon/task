@@ -1,7 +1,75 @@
 @charset "utf-8";
-@media screen and (max-width: 768px){
-  body{
-    font-size: 30%;
+@media screen and (max-width: 800px){
+  .navigation{
+    padding: 3% 8% 3% 45% !important;
+  }
+  @media (min-width: 450px) {
+    body {
+      font-size: 30% !important;
+    }
+  }
+}
+@media screen and (max-width: 450px){
+  @media (min-width: 330px) {
+    body {
+      font-size: 30% !important;
+    }
+    h2{
+      font-size: 1.8rem !important;
+    }
+    h4{
+      font-size: 1rem !important;
+    }
+    .change{
+      font-size: 1.5rem !important;
+    }
+    .navigation {
+      padding: 5% !important;
+      .nav-pills>li+li{
+        margin-left: 0.8rem !important;
+      }
+    }
+    .contain{
+      .container-fluid{
+        padding: 0;
+        ul{
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 330px){
+  body {
+    font-size: 30% !important;
+  }
+  h2{
+    font-size: 1.6rem !important;
+  }
+  h4{
+    font-size: 1rem !important;
+  }
+  .change{
+    font-size: 1.5rem !important;
+  }
+  .navigation{
+    padding: 5% 0 !important;
+    .nav-pills>li+li{
+      margin-left: 0.5rem !important;
+    }
+  }
+  .footer-bottom{
+    p{
+      font-size: 0.3rem !important;
+    }
+  }
+  .contain{
+    .container-fluid{
+      padding: 0;
+      ul{
+        padding: 0;
+      }
+    }
   }
 }
 .border-radius{
@@ -42,13 +110,10 @@ body{
   }
 }
 .navigation {
-  padding: 3% 8% 8% 0;
+  padding: 3% 8% 3% 60%;
   background: #f9f9f9;
-  .nav{
-    float: right;
-    }
   .nav-pills>li+li{
-    margin-left: 2rem;
+    margin-left: 1.5rem;
   }
   li{
     background: white;
@@ -68,6 +133,9 @@ body{
 }
 .contain{
   padding: 3% 8%;
+  .wrap-top{
+    margin-bottom: 10%;
+  }
   ul{
     list-style: none;
   }
@@ -100,5 +168,91 @@ body{
   .circle1{
     .circle;
     background: #ccc !important;
+  }
+  .title{
+    padding: 0 2%;
+    border-left: 3px solid #1277dc;
+  }
+  .box{
+    background: #f3f3f3;
+    img{
+      display: inline-block;
+      margin: 2%;
+    }
+    span{
+      font-size: 2rem;
+      font-weight: bold;
+      color: #1277dc;
+      line-height: 3rem;
+    }
+  }
+  #form{
+    width: 100%;
+    overflow: hidden;
+    padding: 3%;
+    background: white;
+    border: 1px solid #f3f3f3;
+    span{
+      font-size: 2rem;
+      font-weight: 500;
+    }
+    .radio-inline{
+      margin-bottom: 8%;
+      padding: 0;
+    }
+    .down{
+      width: 150%;
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;//消除secelt的下拉箭头
+      background: url("images/arrow.jpg") right 90% no-repeat;
+    }
+    .form-control{
+      padding: 0;
+    }
+    label{
+      padding: 0;
+    }
+  }
+  .button{
+    width: 100%;
+    text-align: center;
+  }
+  .btn{
+    margin: 5%;
+  }
+}
+.footer2{
+  background: #f3f3f3;
+  padding: 5% 8%;
+  .change{
+    color: #999;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+  a{
+    display: inline-block;
+    text-decoration: none;
+    color: #999;
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+  .tel{
+    span{
+      display: block;
+      color: #999;
+      font-size: 1.5rem;
+      line-height: 2.5rem;
+    }
+  }
+}
+.footer-bottom{
+  background: #1277dc;
+  text-align: center;
+  border-top: 1px solid #999;
+  p{
+    font-size: 1rem;
+    color: white;
+    line-height: 2rem;
   }
 }
