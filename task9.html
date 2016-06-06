@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>task9</title>
+    <link rel="stylesheet" type="text/css" href="task9.css">
+    <link rel="stylesheet" href="bootstrap-3.3.5-dist/css/bootstrap.min.css">
+</head>
+<body>
+<!--header-->
+<div class="header">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-10">
+                <span>客服热线：010-594-78634</span>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-10">
+                <ul>
+                    <li>登录</li>
+                    <li id="login">注册</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--nav-->
+<div class="navigation">
+    <ul class="nav nav-pills ">
+        <li role="presentation" class="active"><a href="#">首页</a></li>
+        <li role="presentation"><a href="#">在线定制</a></li>
+        <li role="presentation"><a href="#">标准箱</a></li>
+        <li role="presentation"><a href="#">品质保证</a></li>
+    </ul>
+</div>
+<div class="contain">
+    <div class="wrap-top container-fluid">
+        <div class="step row">
+            <div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-1 col-lg-9 col-md-9 col-sm-11 col-xs-12">
+                <ul>
+                    <li class="first">
+                        <h4>1.定制纸箱</h4>
+                        <div class="circle">1</div>
+                    </li>
+                    <li class="second">
+                        <h4>2.选择数量</h4>
+                        <div class="circle1">2</div>
+                    </li>
+                    <li class="second">
+                        <h4>3.上传附件</h4>
+                        <div class="circle1">3</div>
+                    </li>
+                    <li class="second">
+                        <h4>4.确认下单</h4>
+                        <div class="circle1">4</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="title">
+        <h2>请您按照以下步骤来定制您的纸箱</h2>
+    </div>
+    <div class="box">
+        <img class="img-responsive" src="images/box.jpg">
+        <span>选择箱型</span>
+    </div>
+    <form role="form" id="form">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <label class="radio-inline">
+                <input type="radio"  value="option1" name="choice"><span>对口箱</span>
+            </label>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+            <label class="radio-inline">
+                <input type="radio"  value="option2" name="choice"><span>飞机盒</span>
+            </label>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+            <label class="radio-inline">
+                <input type="radio"  value="option3" name="choice"><span>天地盖</span>
+            </label>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+            <label class="radio-inline">
+                <select class="form-control down">
+                    <option>查看详情</option>
+                </select>
+            </label>
+        </div>
+    </form>
+    <div class="box">
+        <img class="img-responsive" src="images/size.jpg">
+        <span>确定尺寸</span>
+    </div>
+    <form role="form" class="form-horizontal" id="form">
+        <div class="col-lg-10 col-md-10 col-sm-9 col-xs-12">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+                    <label class="radio-inline">
+                        <input type="radio"  value="option1" name="choice"><span>外径</span>
+                    </label>
+                </div>
+                <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6">
+                    <div class="form-group">
+                        <label for="length" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label"><span>长:</span></label>
+                        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                            <input type="email" class="form-control" id="length">
+                        </div>
+                        <label for="length" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label"><span>mm</span></label>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6">
+                    <div class="form-group">
+                        <label for="width" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label"><span>宽:</span></label>
+                        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                            <input type="email" class="form-control" id="width">
+                        </div>
+                        <label for="width" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label"><span>mm</span></label>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6">
+                    <div class="form-group">
+                        <label for="height" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label"><span>高:</span></label>
+                        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                            <input type="email" class="form-control" id="height">
+                        </div>
+                        <label for="height" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label"><span>mm</span></label>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-2 col-sm-6 col-xs-6">
+                    <label class="radio-inline">
+                        <input type="radio"  value="option1" name="choice"><span>内径</span>
+                    </label>
+                </div>
+                <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6">
+                    <div class="form-group">
+                        <label for="length" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label"><span>长:</span></label>
+                        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                            <input type="email" class="form-control" id="length">
+                        </div>
+                        <label for="length" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label"><span>mm</span></label>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6">
+                    <div class="form-group">
+                        <label for="width" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label"><span>宽:</span></label>
+                        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                            <input type="email" class="form-control" id="width">
+                        </div>
+                        <label for="width" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label"><span>mm</span></label>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-2 col-sm-6 col-xs-6">
+                    <div class="form-group">
+                        <label for="height" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label"><span>高:</span></label>
+                        <div class="col-lg-7 col-md-7 col-sm-7 col-xs-7">
+                            <input type="email" class="form-control" id="height">
+                        </div>
+                        <label for="height" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 control-label"><span>mm</span></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-5">
+            <label class="radio-inline">
+                <select class="form-control down">
+                    <option>查看详情</option>
+                </select>
+            </label>
+        </div>
+    </form>
+    <div class="box">
+        <img class="img-responsive" src="images/texture.jpg">
+        <span>选择材质</span>
+    </div>
+    <form role="form" id="form">
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+            <label class="radio-inline">
+                <input type="radio"  value="option1" name="choice"><span>三层A瓦优质</span>
+            </label>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+            <label class="radio-inline">
+                <input type="radio"  value="option2" name="choice"><span>三层A瓦优质</span>
+            </label>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+            <label class="radio-inline">
+                <input type="radio"  value="option3" name="choice"><span>三层A瓦优质</span>
+            </label>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+            <label class="radio-inline">
+                <input type="radio"  value="option3" name="choice"><span>三层A瓦优质</span>
+            </label>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+            <label class="radio-inline">
+                <input type="radio"  value="option3" name="choice"><span>三层A瓦优质</span>
+            </label>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6">
+            <label class="radio-inline">
+                <select class="form-control down">
+                    <option>查看详情</option>
+                </select>
+            </label>
+        </div>
+    </form>
+    <div class="button">
+        <button class="btn btn-success btn-lg" type="button">下一步</button>
+    </div>
+</div>
+<div class="footer2">
+    <div class="row">
+        <div class="col-lg-5 col-md-5 col-sm-6 col-xs-11">
+            <span class="change">51包装网— 纸箱包装首选服务平台</span>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-11 ">
+            <a href="#">关于我们</a>
+            <a href="#">配送物流</a>
+            <a href="#">联系我们</a><br/>
+            <a href="#">下单指南</a>
+            <a href="#">媒体介绍</a>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-6 col-xs-8 tel">
+            <span>TEL：400-0000-000</span>
+            <span>企业QQ：123456789</span>
+            <span>微信号：XXXXXXX</span>
+        </div>
+        <div class="col-lg-1 col-md-2 col-sm-6 col-xs-4">
+            <img src="images/task7/TDCodes.png">
+        </div>
+    </div>
+</div>
+<div class="footer-bottom">
+    <p>
+        北京五一包装科技有限公司Copyright ©201551baozhuang.com015 All rights reserved. 京icp备99999999-1
+    </p>
+</div>
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="jquery-2.1.4/jquery.min.js"></script>
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
